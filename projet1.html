@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+    body {
+      margin : 0%;
+        
+        background-size: cover;
+        background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Cloud-Wallpapers-HD-Free-Download.jpg");
+        
+}
+   
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: #367cab;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  font-weight: bold;
+  font-family: arial;
+  border: 0.1rem solid;
+  border-color: #004678; 
+  transition: 0.4s ease-in-out;
+}
+#d1{
+    float: right;
+}
+#r1{
+    position: absolute;
+  right: 16px;
+ 
+}
+.hid{
+  visibility: hidden;
+}
+
+.button1 {
+  background-color: transparent;
+  color: rgb(241, 238, 238);
+  border: 2px solid #3f3e3e;
+}
+
+
+.button1:hover .hid{
+  visibility: visible;
+}
+
+.button2 {
+  background-color: transparent;
+  color: rgb(241, 238, 238);
+  border: 2px solid #3f3e3e;
+}
+
+
+
+.button3 {
+  background-color: transparent;
+  color: rgb(241, 238, 238);
+  border: 2px solid #3f3e3e;
+}
+
+.section1{
+  border: outset;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<section>
+<ul>
+  <li><a  class="active" href="#home">Home</a></li>
+  <li><a  class="active" href="#news">About Me</a></li>
+  <li><a  class="active" href="#contact">Contact Me</a></li>
+  <li><a  class="active" href="#about">QUIZ</a></li>
+  <li><a  class="active" id="r1" href="#about">LOGOUT</a></li>
+</ul>  
+</section><br>
+<br>
+<br>
+<section class="section1">
+  <div class="wrapper">
+
+   <p class="button1">PARCOURS</p>
+      <p class="hid"> Baccalauréat pc et 2 ap informatique  </p>
+    <p class="button2">STAGES</p>
+    <p class="hid">pas encore</p>
+    <br>
+    <p class="button3">Skills</p>
+    <p class="hid">Connaissance des langages HTML, CSS et language de programmation c</p>
+  
+
+</div>
+
+
+</section>
+</body>
+</html>
